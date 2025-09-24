@@ -5,7 +5,7 @@ import 'package:my_anime_data/core/theming/text_styles.dart';
 import 'package:my_anime_data/features/upgrade_plan.dart/ui/widgets/plan_card.dart';
 
 class UpgradePlaneScreen extends StatefulWidget {
-  UpgradePlaneScreen({super.key});
+  const UpgradePlaneScreen({super.key});
 
   @override
   State<UpgradePlaneScreen> createState() => _UpgradePlaneScreenState();

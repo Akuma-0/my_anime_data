@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_anime_data/core/theming/text_styles.dart';
 
 class AnalyticsItem extends StatelessWidget {
-  AnalyticsItem({
+  const AnalyticsItem({
     super.key,
     required this.image,
     required this.number,

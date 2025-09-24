@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_anime_data/core/theming/text_styles.dart';
 
 class GenraButton extends StatelessWidget {
-  GenraButton({super.key, required this.genra});
+ const GenraButton({super.key, required this.genra});
   final String genra;
   @override
   Widget build(BuildContext context) {
