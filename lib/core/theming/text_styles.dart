@@ -6,6 +6,11 @@ class TextStyles {
     fontSize: 24,
     fontWeight: FontWeight.bold,
   );
+  static const TextStyle bold22 = TextStyle(
+    fontFamily: 'Raleway',
+    fontSize: 22,
+    fontWeight: FontWeight.bold,
+  );
   static const TextStyle bold14 = TextStyle(
     fontFamily: 'Raleway',
     fontSize: 14,

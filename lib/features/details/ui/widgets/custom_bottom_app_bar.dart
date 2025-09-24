@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_anime_data/core/theming/colors.dart';
 import 'package:my_anime_data/core/theming/text_styles.dart';
+import 'package:my_anime_data/features/upgrade_plan.dart/ui/upgrade_plane_screen.dart';
 
 class CustomBottomAppBar extends StatelessWidget {
   const CustomBottomAppBar({super.key});
@@ -40,7 +41,11 @@ class CustomBottomAppBar extends StatelessWidget {
             ),
           ),
           FilledButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => UpgradePlaneScreen()),
+              );
+            },
             style: FilledButton.styleFrom(
               backgroundColor: Color(0xff6758FE),
               shape: RoundedRectangleBorder(
