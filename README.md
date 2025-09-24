@@ -106,17 +106,20 @@ lib/
 
 ### Home Screen
 
-![Home Screen](screenshots/home_screen.png)
+<img src="screenshots/home_screen.png" width="300" alt="Home Screen">
+
 _Showcases gradient backgrounds, custom tab bars, anime cards, and bottom navigation_
 
 ### Details Screen
 
-![Details Screen](screenshots/details_screen.png)
+<img src="screenshots/details_screen.png" width="300" alt="Details Screen">
+
 _Features blur effects, analytics widgets, genre tags, and custom app bars_
 
 ### Upgrade Plan Screen
 
-![Upgrade Screen](screenshots/upgrade_screen.png)
+<img src="screenshots/upgrade_screen.png" width="300" alt="Upgrade Plan Screen">
+
 _Demonstrates interactive plan cards, positioned decorations, and form layouts_
 
 ## 🏗️ Getting Started
